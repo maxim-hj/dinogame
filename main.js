@@ -6,7 +6,7 @@ window.addEventListener('keydown', function (event) {
 	jump();
 })
 
-window.addEventListener('touch', function (event) {
+window.addEventListener('touchstart', function (event) {
 	jump();
 })
 
