@@ -2,7 +2,11 @@ const dino = document.getElementById('dino');
 const cactus = document.getElementById('cactus');
 
 
-document.addEventListener('keydown', 'touch', function (event) {
+window.addEventListener('keydown', function (event) {
+	jump();
+})
+
+window.addEventListener('touch', function (event) {
 	jump();
 })
 
